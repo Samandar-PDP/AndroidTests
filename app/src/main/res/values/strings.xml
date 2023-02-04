@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">AndroidTests</string>
+    <string name="go_m">Go to next Activity</string>
+    <string name="s_ac">Second Activity</string>
+    <string name="back">Back</string>
+    <string name="main_ac">Main Activity</string>
 </resources>

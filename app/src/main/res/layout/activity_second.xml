@@ -3,15 +3,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:id="@+id/layoutMain"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:id="@+id/layoutSecond"
+    tools:context=".SecondActivity">
 
     <TextView
-        android:id="@+id/textMain"
+        android:id="@+id/textSecond"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/main_ac"
+        android:text="@string/s_ac"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,15 +21,16 @@
         app:layout_constraintVertical_bias="0.292" />
 
     <Button
-        android:id="@+id/btnGo"
+        android:id="@+id/btnBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/go_m"
+        android:text="@string/back"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textMain"
+        app:layout_constraintTop_toBottomOf="@+id/textSecond"
         app:layout_constraintVertical_bias="0.393" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
